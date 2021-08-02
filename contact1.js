@@ -50,10 +50,7 @@ function getInputVal(id) {
 
 function saveMessage(name, email, subject, message){
     var newmessageRef = messageRef.push();
-    alert(name);
-    alert(email);
-    alert(subject);
-    alert(message);
+
     newmessageRef.set({
         name: name,
         email: email,
