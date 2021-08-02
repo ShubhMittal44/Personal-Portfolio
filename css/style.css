@@ -801,3 +801,11 @@ a:active {
     width:100%;
     position:absolute;
 }
+
+.alert {
+    margin-top: 2%;
+    background-color: green;
+    color: white;
+    padding: 3%;
+    display: none;
+  }
